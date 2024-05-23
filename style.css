@@ -8,11 +8,13 @@ body{
   font-family: sans-serif;
 
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container{
   width: 800px;
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .main-header {
@@ -178,4 +180,12 @@ nav a:link {
 
 nav a:link:last-child{
   margin-right: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
